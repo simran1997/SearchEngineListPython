@@ -13,7 +13,7 @@ def mathingWords(sentence1, sentence2):
 if __name__ == "__main__":
     # mathingWords("This is good", "python is good")
     sentences = ["python is a good", "this is snake",
-                 "harry is a good boy", "Subscribe to code with harry"]
+                 "harry is a good boy", "Subscribe to python channel"]
 
     query = input("Please enter the query string\n")
     scores = [mathingWords(query, sentence) for sentence in sentences]
